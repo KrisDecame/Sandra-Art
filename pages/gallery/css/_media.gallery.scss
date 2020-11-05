@@ -1,0 +1,51 @@
+@mixin media() {
+
+    @media only screen and (min-width: 600px) {
+
+        .backToTopButton {
+            right: 5vw;
+            bottom: 5vw;
+
+            img {
+                width: 30px;
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .signature2 {
+            top: initial;
+            bottom: 0;
+        }
+
+        .image-container {
+            margin: 50px 0;
+        }
+
+        .image {
+            width: 60vh;
+        }
+
+        .exposed-image__actions-block {
+            position: absolute;
+            top: 50%;
+            left: initial;
+            right: -70px;
+            transform: translateY(-50%);
+            flex-direction: column;
+
+            button {
+                &:hover {
+                    cursor: pointer;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .exposed-image__content {
+            width: 60%;
+        }
+    }
+}

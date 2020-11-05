@@ -1,0 +1,128 @@
+@mixin media() {
+
+
+    @media only screen and (min-width: 500px) {
+
+        .nav-list {
+            justify-content: flex-end;
+
+            a {
+                flex: none;
+                padding: 20px 5vw;
+            }
+        }
+
+        .content__image {
+            min-height: 60vh;
+        }
+    }
+
+    @media only screen and (min-width: 800px) {
+
+        .content-section {
+            margin: 0 10vw;
+        }
+
+        .content__block {
+            flex-direction: row;
+            margin: 10vh 0;
+        }
+
+        .content__text {
+            margin: 0;
+        }
+
+        .content__image {
+            flex: 1;
+            background-size: cover;
+            // min-height: 50vh;
+        }
+
+        .content__block--about {
+            margin-top: 20vh;
+
+            .text {
+                align-items: flex-start;
+                text-align: left;
+            }
+        }
+
+        .content__block--vision {
+            .text {
+                order: 2;
+                align-items: flex-end;
+                text-align: right;
+            }
+        }
+
+        .content__block--process {
+            .text {
+                align-items: flex-start;
+                text-align: left;
+            }
+        }
+
+        .content__block--serenity {
+            flex-direction: column;
+        }
+
+        .content__button--serenity {
+            margin: 0;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .quote-wrapper {
+            font-size: 30px;
+
+            .quote-wrapper__quote {
+                width: 60%;
+            }
+        }
+
+        .content-section--signature {
+            height: 40vh;
+
+            img {
+                width: 40vw;
+            }
+        }
+
+        .section-contact {
+            position: relative;
+
+            .background {
+                height: 70vh;
+            }
+        }
+
+        .section-getintouch {
+            display: flex;
+            justify-content: center;
+            font-family: 'Antic';
+
+            .background {
+                width: 60%;
+
+
+                img {
+                    width: 100%;
+                    visibility: hidden;
+                }
+            }
+
+            .get-in-touch-button {
+                left: initial;
+                right: 10vw;
+                padding: 10px 30px;
+                bottom: 100px;
+            }
+        }
+    }
+}

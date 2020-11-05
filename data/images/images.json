@@ -1,0 +1,114 @@
+[
+    {
+        "id":"1",
+        "url":"/data/images/gallery/img-1.webp",
+        "title":"S druge strane",
+        "dimensions":"80 x 120",
+        "caption":"Prva nastala u toku covid-19 lockdown perioda. Odjednom smo se našli s druge strane života kakvog poznajemo. Zatvoreni, gradovi u tišini. Nosimo se sa svojom dubinom koju sada jasno čujemo.",
+        "status":"sold"
+    },
+    {
+        "id":"2",
+        "url":"/data/images/gallery/img-2.webp",
+        "title":"Neka druga realnost mir donosi",
+        "dimensions":"80 x 120",
+        "caption":"Druga nastala u toku covid-10 lockdown perioda. Negdje u svoj toj novonastaloj situaciji dolazi ona i mir donosi.",
+        "status":"sold"
+    },
+    {
+        "id":"3",
+        "url":"/data/images/gallery/img-3.webp",
+        "title":"Prolaz u beskonačno",
+        "dimensions":"120 x 80",
+        "caption":"I onda nešto pukne i otvori se prolaz kroz kojis vjetlost moće ući. Duboko do svježih izvora korjenje pusti.",
+        "status":"sold"
+    },
+    {
+        "id":"4",
+        "url":"/data/images/gallery/img-4.webp",
+        "title":"Noć",
+        "dimensions":"100 x 100",
+        "caption":"Duboko, u tamnom plavetnilu duše, izvirem. Grijem te toplinom svoje ljubavi i donosim svjetlost",
+        "status":"sold"
+    },
+    {
+        "id":"5",
+        "url":"/data/images/gallery/img-5.webp",
+        "title":"Dan",
+        "dimensions":"100 x 100",
+        "caption":"I dan se rađa tamo bijaše noć.",
+        "status":""
+    },
+    {
+        "id":"6",
+        "url":"/data/images/gallery/img-6.webp",
+        "title":"Dolazi",
+        "dimensions":"70 x 100",
+        "caption":"Kroz drevni prolaz on dolazi.",
+        "status":"sold"
+    },
+    {
+        "id":"7",
+        "url":"/data/images/gallery/img-7.webp",
+        "title":"4 Dame - kolekcija iznutra prema van - 1/4",
+        "dimensions":"70 x 70",
+        "caption":"Svaka u svojoj osobnoj priči. Igra boja i slika njihove osobnosti, karaktera i emocija. One kao crno bijela lica govore kako smo samo nazvana beskrajne širine svijeta koji se krije u nama i to nas čini posebnima. To je ono što nam daje ljepotu.",
+        "status":"sold"
+    },
+    {
+        "id":"8",
+        "url":"/data/images/gallery/img-8.webp",
+        "title":"4 Dame - kolekcija iznutra prema van - 2/4",
+        "dimensions":"100 x 100",
+        "caption":"Svaka u svojoj osobnoj priči. Igra boja i slika njihove osobnosti, karaktera i emocija. One kao crno bijela lica govore kako smo samo nazvana beskrajne širine svijeta koji se krije u nama i to nas čini posebnima. To je ono što nam daje ljepotu.",
+        "status":"sold"
+    },
+    {
+        "id":"9",
+        "url":"/data/images/gallery/img-9.webp",
+        "title":"4 Dame - kolekcija iznutra prema van - 3/4",
+        "dimensions":"100 x 100",
+        "caption":"Svaka u svojoj osobnoj priči. Igra boja i slika njihove osobnosti, karaktera i emocija. One kao crno bijela lica govore kako smo samo nazvana beskrajne širine svijeta koji se krije u nama i to nas čini posebnima. To je ono što nam daje ljepotu.",
+        "status":"sold"
+    },
+    {
+        "id":"10",
+        "url":"/data/images/gallery/img-10.webp",
+        "title":"4 Dame - kolekcija iznutra prema van - 4/4",
+        "dimensions":"100 x 100",
+        "caption":"Svaka u svojoj osobnoj priči. Igra boja i slika njihove osobnosti, karaktera i emocija. One kao crno bijela lica govore kako smo samo nazvana beskrajne širine svijeta koji se krije u nama i to nas čini posebnima. To je ono što nam daje ljepotu.",
+        "status":"sold"
+    },
+    {
+        "id":"11",
+        "url":"/data/images/gallery/img-11.webp",
+        "title":"Sve(mir) u njoj",
+        "dimensions":"100 x 100",
+        "caption":"Iz nje izvire, u nju se vraća.",
+        "status":""
+    },
+    {
+        "id":"12",
+        "url":"/data/images/gallery/img-12.webp",
+        "title":"Svemir vibrira 1",
+        "dimensions":"50 x 70",
+        "caption":"Iako smo sada odvojeni, mi smo i dalje energetski povezani. Mi smo jedni drugih dio, i dio svemira.",
+        "status":""
+    },
+    {
+        "id":"13",
+        "url":"/data/images/gallery/img-13.webp",
+        "title":"Svemir vibrira 2",
+        "dimensions":"50 x 70",
+        "caption":"Iako smo sada odvojeni, mi smo i dalje energetski povezani. Mi smo jedni drugih dio, i dio svemira.",
+        "status":""
+    },
+    {
+        "id":"14",
+        "url":"/data/images/gallery/img-14.svg",
+        "title":"Upside down",
+        "dimensions":"70 x 50",
+        "caption":"Ova je slika rađena po posebnoj narudžbi gdje je trebalo istaknuti 15 godina tvrtke i njen logo, ali slika ima i dublju priču. Ako ju okrenemo horizontalno, dobivamo pogled na 'upside down' svijet.",
+        "status":"sold"
+    }
+]

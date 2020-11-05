@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="sandraart, sandra art, paint, paints, painting, paintings, abstract artist, abstract art, sandra">
+    <meta name="description" content="Check out Sandra's art gallery with abstract paintings!">
+    <meta name="author" content="Kristijan Draganić">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandra Art</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video autoplay poster="/data/white-poster.jpg" id="paint-drop-video">
+        <source src="/data/video/paint-drop-medium-bitrate.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <nav class="navbar anim" data-anim="appear 2s 2s ease-out forwards">
+            <ul class="nav-list">
+                <div class="navbar__menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <a class="nav-item-anchor" href="./pages/about/about.html"><li class="list-item">O meni</li></a>
+                <a class="nav-item-anchor" href="/pages/gallery/index.gallery.html"><li class="list-item">Galerija</li></a>
+                <a class="nav-item-anchor" href="/pages/contact/index.contact.html"><li class="list-item">Kontakt</li></a>
+            </ul>
+        </nav>
+        <img class="signature anim" data-anim="signatureAppear 2s ease-out forwards" src="/data/images/home/signature.svg" alt="signature">
+    </div>
+
+    <script type="module">
+        import { main } from "./js/main.js";
+        main();
+    </script>
+</body>
+</html>

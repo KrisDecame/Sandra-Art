@@ -1,0 +1,318 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.backToTopButton {
+  position: fixed;
+  bottom: 4vh;
+  right: 4vw;
+  opacity: 0;
+  visibility: hidden;
+  padding: 0;
+  background-color: transparent;
+  border: 0px transparent;
+  z-index: 10;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.backToTopButton img {
+  width: 7vw;
+}
+
+.backToTopButton:focus {
+  outline: none;
+}
+
+.gallery-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+.image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  margin: 40px 0;
+}
+
+.image {
+  width: 70vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-filter: saturate(0);
+          filter: saturate(0);
+}
+
+.image:hover {
+  cursor: pointer;
+  -webkit-filter: saturate(1);
+          filter: saturate(1);
+}
+
+.signature2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 70%;
+  opacity: 0;
+  -webkit-animation: signatureAppear 2s 1s ease-out forwards;
+          animation: signatureAppear 2s 1s ease-out forwards;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes signatureAppear {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 0.3;
+    visibility: visible;
+  }
+}
+
+@keyframes signatureAppear {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 0.3;
+    visibility: visible;
+  }
+}
+
+.exposed-image-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-animation: appear 1s ease-out forwards;
+          animation: appear 1s ease-out forwards;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.exposed-image__actions-block {
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.exposed-image__actions-block button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  margin: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.exposed-image__actions-block button img {
+  width: 30px;
+}
+
+.exposed-image__actions-block button:focus {
+  outline: none;
+}
+
+.exposed-image__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #fff;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-box-shadow: 0px 1px 35px -3px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 1px 35px -3px rgba(0, 0, 0, 0.75);
+}
+
+.exposed-image__background-image {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.exposed-image__image {
+  visibility: hidden;
+  display: block;
+}
+
+.exposed-image__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  text-align: center;
+  width: 100%;
+}
+
+.exposed-image__back-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: white;
+}
+
+.exposed-image__status {
+  color: #0AB1E2;
+  font-weight: bold;
+}
+
+.low-opacity {
+  opacity: 0.15;
+}
+
+.half-visible {
+  opacity: 0.5;
+}
+
+.high-opacity {
+  opacity: 1;
+}
+
+.large-scale {
+  height: initial;
+  width: 100vw;
+}
+
+.rotate {
+  -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.reverse-rotate {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.content-reverse-rotate {
+  -webkit-transform: translate(-50%) rotate(-90deg);
+          transform: translate(-50%) rotate(-90deg);
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media only screen and (min-width: 600px) {
+  .backToTopButton {
+    right: 5vw;
+    bottom: 5vw;
+  }
+  .backToTopButton img {
+    width: 30px;
+  }
+  .backToTopButton:hover {
+    cursor: pointer;
+  }
+  .signature2 {
+    top: initial;
+    bottom: 0;
+  }
+  .image-container {
+    margin: 50px 0;
+  }
+  .image {
+    width: 60vh;
+  }
+  .exposed-image__actions-block {
+    position: absolute;
+    top: 50%;
+    left: initial;
+    right: -70px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .exposed-image__actions-block button:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+  .exposed-image__content {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=style.gallery.css.map */
